@@ -19,7 +19,7 @@ class Logger {
     date = new Date();
     monthNames = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
 
-    return path.join(__dirname, `${date.getDate()} ${monthNames[date.getMonth()]}, ${date.getFullYear()}.log`);
+    return path.join(__dirname, `logs/${date.getDate()} ${monthNames[date.getMonth()]}, ${date.getFullYear()}.log`);
   }
 
 }
