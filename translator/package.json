@@ -1,0 +1,24 @@
+{
+  "name": "translator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "minimist": "^1.2.0",
+    "request": "^2.78.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/w1reden/console-scripts.git"
+  },
+  "author": "wireden",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/w1reden/console-scripts/issues"
+  },
+  "homepage": "https://github.com/w1reden/console-scripts#readme"
+}
